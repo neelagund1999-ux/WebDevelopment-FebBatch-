@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: monospace;
+            background-color: #f4f4f4;
+        }
+
+        h1{
+            text-align: center;
+            color: #333; 
+            margin: 30px;
+            border-bottom: 1px solid orange;
+        }
+        .team{
+           display: flex;
+           justify-content:space-around ;
+           gap: 30px;
+           flex-wrap: wrap;
+           /*flex wrap will auto adjust and response to screen size*/
+        }
+        .card{
+          background-color: bisque;
+          border-radius: 12px; 
+          width: 220px; 
+          padding: 12px;
+          text-align: center;
+          box-shadow: 0 4px 6px black ;
+        }
+
+        img{
+            height: 200px;
+            width: 100%;
+            object-fit: cover;
+           border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Meat our aswesom team</h1>
+     
+    <div class="team">
+
+        <div class="card">
+            <img src="https://tse3.mm.bing.net/th/id/OIP.qnvFZKgcPGkSzQUsQZ7tggHaHa?pid=Api&P=0&h=180">
+            <h2>paru</h2>
+            <p>UI/UX Developer</p>
+            <button>LinkedIn</button>
+        </div>
+
+        <div class="card">
+            <img src="https://tse1.mm.bing.net/th/id/OIP.zSjnJGFe_TxQyoSX48_Z6wHaHa?pid=Api&P=0&h=180">
+            <h2>suni</h2>
+            <p>App Developer</p>
+            <button>LinkedIn</button>
+    </div>
+
+    <div class="card">
+            <img src="https://tse3.mm.bing.net/th/id/OIP.YtpMv1bFMAcCXj4Je1rVNgHaHa?pid=Api&P=0&h=180">
+            <h2>rishi</h2>
+            <p>Front end Developer</p>
+            <button>LinkedIn</button>
+    </div>
+
+</body>
+</html>
