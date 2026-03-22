@@ -19,7 +19,7 @@ searchInput.addEventListener("keyup", function () {
         }
     }
 
-    // Show or Hide the "No results found" message
+    // Show "No results found" message
     if (matchFound) {
         noResult.classList.add("hidden");
     } else {
